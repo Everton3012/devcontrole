@@ -11,14 +11,14 @@ export const Header = () => {
           </h1>
         </Link>
         <div className="flex items-baseline gap-4">
-          <Link className="duration-300 hover:opacity-70" href={"/dashboard"}>
+          <Link className="duration-300 hover:opacity-60" href={"/dashboard"}>
             <FiUser size={30} color="#4b5563" />
           </Link>
           <Link href={"/dashboard"}>
             <FiLogOut
-              className="duration-300 hover:opacity-70"
+              className="duration-300 hover:opacity-60"
               size={30}
-              color="#4b5563"
+              color="#dc2626"
             />
           </Link>
         </div>
